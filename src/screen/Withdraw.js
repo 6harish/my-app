@@ -10,7 +10,7 @@ const Withdraw = () => {
 
   const handleWithdraw = () => {
     // Perform deposit logic, e.g., update the balance with the entered amount
-    console.log('Depositing amount:', amount);
+    console.log('Withdraw amount:', amount);
     setAmount('');
   };
 
